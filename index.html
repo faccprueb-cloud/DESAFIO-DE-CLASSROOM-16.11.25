@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Final de JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Proyecto Final: Ejercicios JavaScript</h1>
+    <p class="subtitle">Salud • Astronomía • Medio Ambiente</p>
+  </header>
+
+  <nav>
+    <div class="dropdown">
+      <button class="dropbtn">🩺 Área de Salud</button>
+      <div class="dropdown-content">
+        <a href="#" onclick="mostrarEjercicio('salud-1')">1. IF - Presión Arterial</a>
+        <a href="#" onclick="mostrarEjercicio('salud-2')">2. FOR - Temp. Pacientes</a>
+        <a href="#" onclick="mostrarEjercicio('salud-3')">3. WHILE - Conteo Fiebre</a>
+        <a href="#" onclick="mostrarEjercicio('salud-4')">4. SWITCH - TRIAGE</a>
+        <a href="#" onclick="mostrarEjercicio('salud-5')">5. DO WHILE - Saturación SpO2</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">🔭 Área de Astronomía</button>
+      <div class="dropdown-content">
+        <a href="#" onclick="mostrarEjercicio('astro-1')">1. IF - Brillo Estelar</a>
+        <a href="#" onclick="mostrarEjercicio('astro-2')">2. FOR - Distancias Planetas</a>
+        <a href="#" onclick="mostrarEjercicio('astro-3')">3. WHILE - Cráteres Lunares</a>
+        <a href="#" onclick="mostrarEjercicio('astro-4')">4. SWITCH - Cuerpo Celeste</a>
+        <a href="#" onclick="mostrarEjercicio('astro-5')">5. DO WHILE - Niveles de Luz</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">🌳 Área de Medio Ambiente</button>
+      <div class="dropdown-content">
+        <a href="#" onclick="mostrarEjercicio('amb-1')">1. IF - Calidad de Aire (AQI)</a>
+        <a href="#" onclick="mostrarEjercicio('amb-2')">2. FOR - Niveles de Ruido</a>
+        <a href="#" onclick="mostrarEjercicio('amb-3')">3. WHILE - Focos de Calor</a>
+        <a href="#" onclick="mostrarEjercicio('amb-4')">4. SWITCH - Tipo de Residuo</a>
+        <a href="#" onclick="mostrarEjercicio('amb-5')">5. DO WHILE - Niveles de Río</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="app-container">
+    <h2>Bienvenido 👋</h2>
+    <p>Selecciona un ejercicio del menú de navegación para comenzar.</p>
+    <p class="hint">Cada ejercicio incluye una pequeña ampliación ("plus") para aumentar la complejidad.</p>
+  </main>
+
+  <footer>
+    <p>Proyecto de JavaScript • 2025</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
